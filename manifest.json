@@ -1,0 +1,27 @@
+{
+"name": "Student Schedule",
+"version": "1.0",
+"description": "Have access to your daily school schedule anywhere anytime",
+"permissions": ["activeTab", "declarativeContent", "storage","identity","identity.email","all_urls"],
+"background": {
+"scripts": ["background.js"],
+"persistent": false
+},
+"page_action": {
+  "default_popup": "popup.html",
+  "default_title": "Todays Schedule",
+  "defult_icon": {
+    "16": "images/Calander_16.png",
+    "32": "images/Calander_32.png",
+    "48": "images/Calander_48.png",
+    "128": "images/Calander_128.png"
+  }
+},
+"icons": {
+  "16": "images/Calander_16.png",
+  "32": "images/Calander_32.png",
+  "48": "images/Calander_48.png",
+  "128": "images/Calander_128.png"
+},
+"manifest_version": 2
+}
